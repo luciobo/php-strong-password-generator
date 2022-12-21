@@ -1,6 +1,15 @@
 <?php
 
+function passwordRandom () {
 
+    $numeri = "123456789";
+    $simboli = "!£%&/=?^";
+    $minuscole = "abcdefghijkmnopqrstuvwxyz";
+    $Maiuscole = "ABCDEFGHJKLMNPQRSTUVWXYZ";
+
+    $tuttoUnito = $numeri . $simboli . $minuscole . $Maiuscole;
+
+}
 
 ?>
 
@@ -30,7 +39,7 @@
                 <form method="GET">
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Inserisci un numero per generare la password</label>
-                        <input type="number" class="form-control" name="numero">
+                        <input type="number" class="form-control" name="lungPassw">
                     </div>
                     <button type="submit" class="btn btn-primary">Genera Password</button>
                 </form>
