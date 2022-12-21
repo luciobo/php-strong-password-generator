@@ -1,4 +1,8 @@
+<?php
 
+
+
+?>
 
 
 <!DOCTYPE html>
@@ -23,7 +27,7 @@
         <div class="row justify-content-center py-5">
             <div class="col-6">
                 <h1 class="text-center pb-5 text-primary">Genera La Tua Password</h1>
-                <form method="POST">
+                <form method="GET">
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Inserisci un numero per generare la password</label>
                         <input type="number" class="form-control" name="numero">
