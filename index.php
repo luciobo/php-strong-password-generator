@@ -1,15 +1,19 @@
 <?php
 
+
+
 function passwordRandom () {
 
     $numeri = "123456789";
     $simboli = "!£%&/=?^";
     $minuscole = "abcdefghijkmnopqrstuvwxyz";
     $Maiuscole = "ABCDEFGHJKLMNPQRSTUVWXYZ";
+    $passwordFinale = "";
 
-    $tuttoUnito = $numeri . $simboli . $minuscole . $Maiuscole;
+    $caratteriUniti = $numeri . $simboli . $minuscole . $Maiuscole;
 
 }
+
 
 ?>
 
